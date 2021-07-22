@@ -1,0 +1,180 @@
+* {
+    margin: 0;
+}
+body {
+    color: white;
+}
+.navbar-nav {
+    margin-right: 50px;
+}
+
+#home {
+    background-image: url(img/bg1.jfif);
+}
+
+.img-header {
+    width: 100px;
+    height: 78px;
+
+}
+.navbar-light .navbar-toggler-icon {
+    filter: invert(1);
+
+}
+.navbar-style {
+    font-family: 'Poppins' ;
+    font-size: large;
+    font-size: 15x;
+    line-height: 45px;
+    line-height: 100%;
+    color: white;
+}
+
+.navbar-style:hover {
+    color :#E1C5C5;
+}
+
+
+.navbar-light .navbar-nav .nav-link {
+    color:white;
+}
+
+.front-text h1 {
+    font-family: 'Bebas Neue';
+    font-style: normal;
+    font-size: 120px;
+    line-height: 100px;
+    line-height: 100%;
+    text-align: left;
+    vertical-align: top;
+    letter-spacing: 3%;
+
+
+
+    
+}
+.front-text h3 {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-size: 35px;
+    line-height: 50px;
+    line-height: 100%;
+    text-align: left;
+    letter-spacing: 3%;
+    color: #E1C5C5;
+}
+.btn-front {
+    font-family: 'Poppins' ;
+    font-style:normal ;
+    font-size: 25px;
+    line-height: 54px;
+    line-height: 100%;
+    text-align: center  ;
+    margin-top: 10px;
+    padding: 5px 30px;
+    border-radius: 0;
+}
+
+.front-text {
+    padding: 200px 10px 200px 30px;;
+}
+
+/* ABOUT SECTION */
+#about {
+    text-align: center;
+}
+.first-image {
+    background-color: #E1C5C5;
+    color: #ffffff;
+    padding: 50px 100px;
+}
+
+.second-image {
+    background-color: #ffffff;
+    color: #E1C5C5;
+    padding: 50px 100px;
+}
+.about-icon1 {
+    width: 200px;
+}
+.about-icon2 {
+    width: 250px;
+}
+
+/* SAMPLE SECTION */
+
+#sample {
+    background-image: url(img/bg2.jfif);
+    text-align: center;
+    padding: 50px;
+    font-family: 'Merriweather';
+}
+.btn-sample {
+    padding: 2px 20px;
+    border-radius: 0;
+}
+
+/* BENEFINTS SECTION */
+
+#benefits {
+    background-color: #E1C5C5;
+    color: white;
+    text-align: center;
+    fill: white;
+}
+
+.benefits-image1 {
+    width: 600px;
+    height: 600px;
+    border-radius: 40px;
+}
+.b-image2 h3, .b-image3 h3 {
+    margin-top: 25px;
+    font-size: 35px;
+    font-family: 'Merriweather';
+}
+.b-image2 p, .b-image3 p {
+    font-family: 'Poppins';
+    font-size: 20px;
+    margin-top: 10px;
+    text-align: left;
+}
+
+.benefits-image2 {
+    width: 600px;
+    border-radius: 40px;
+    height: 435px;
+}
+
+.b-image1 {
+    padding: 5% 2% 2% 5%;
+}
+.b-image2 {
+    padding: 5% 5% 2% 2% ;
+}
+.b-image3 {
+    padding: 2% 2% 5% 5%;
+}
+.b-image {
+    padding: 2% 5% 5% 2%;
+    padding-top: 30px;
+}  
+
+/* FOOTER */
+
+#contact {
+    background-color: #055052;
+    padding: 100px;
+    text-align: center;
+}
+
+#contact p {
+    padding-top: 40px;
+}
+.social i{
+    width: 100px;
+}
+
+.social i:hover {
+    cursor: pointer;
+}
